@@ -7,7 +7,6 @@ body {
     margin: 0;
     background: linear-gradient(to bottom right, #ffffff, #ffffff);
     overflow: hidden;
-
     background-image: url('mobilebg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -18,18 +17,14 @@ body {
 
 .form-container {
     background-color: linear-gradient(to bottom right, #ffffff, #f7a0cb);
-
     padding: 10px;
     border-radius: 20px;
-
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     width: 90%;
     max-width: 400px;
     text-align: center;
     margin: 0 20px;
-
     overflow: hidden;
-
     margin-bottom: -30px;
 }
 
@@ -54,7 +49,6 @@ h2 {
 
 .form-group input {
     width: calc(100% - 22px);
-
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -65,11 +59,8 @@ h2 {
 
 .form-group input:focus {
     outline: none;
-
     border-color: #ccc;
-
     box-shadow: none;
-
 }
 
 .button-container {
@@ -81,15 +72,11 @@ h2 {
     display: inline-block;
     width: 100%;
     padding: 12px 0;
-
     border: none;
     border-radius: 5px;
-
     background: linear-gradient(to right, rgb(3, 20, 66), red);
-
     color: white;
     font-size: 15px;
-
     text-align: center;
     cursor: pointer;
     margin-top: 20px;
